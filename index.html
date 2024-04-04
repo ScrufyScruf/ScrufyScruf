@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Page Image</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .bg-image {
+            background-image: url('scruf.JPG');             background-size: cover;
+            background-position: center;
+            height: 100%;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+        }
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        /* Adjust styles for content as needed */
+    </style>
+</head>
+<body>
+    <div class="bg-image">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Welcome to Our Website</h1>
+            <p>This is a one-page website with a full-page image that adjusts to the screen size.</p>
+        </div>
+    </div>
+</body>
+</html>
